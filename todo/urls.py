@@ -5,5 +5,5 @@ from todo.views import index
 
 urlpatterns = [
     path('', index)
-    path(),
+    path('', get),
 ]
